@@ -2,7 +2,7 @@
     "0": {
         "id": 0,
         "description": "It is vocabmon 0.",
-         "external_url": "https://tecky.io/en/"
+         "external_url": "https://tecky.io/en/",
         "name": "vocabmon 0",
         "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky",
         "attributes": [
@@ -14,7 +14,7 @@
     "1": {
         "id": 1,
         "description": "It is vocabmon 1.",
-        "external_url": "https://tecky.io/en/"
+        "external_url": "https://tecky.io/en/",
         "name": "vocabmon 1",
         "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1",
         "attributes": [
@@ -26,7 +26,7 @@
     "2": {
         "id": 2,
         "description": "It is vocabmon 2.",
-        "external_url": "https://tecky.io/en/"
+        "external_url": "https://tecky.io/en/",
         "name": "vocabmon 2",
         "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2",
         "attributes": [
@@ -38,7 +38,7 @@
     "3": {
         "id": 3,
         "description": "It is vocabmon 3.",
-        "external_url": "https://tecky.io/en/"
+        "external_url": "https://tecky.io/en/",
         "name": "vocabmon 3",
         "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3",
         "attributes": [
@@ -50,7 +50,7 @@
     "4": {
         "id": 4,
         "description": "It is vocabmon 4.",
-        "external_url": "https://tecky.io/en/"
+        "external_url": "https://tecky.io/en/",
         "name": "vocabmon 4",
         "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4",
         "attributes": [
