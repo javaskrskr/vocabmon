@@ -1,7 +1,6 @@
 {
     "id": 0,
     "description": "It is vocabmon 0.",
-    "external_url": "https://tecky.io/en/",
     "name": "vocabmon 0",
     "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky",
     "attributes": [
