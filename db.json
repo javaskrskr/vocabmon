@@ -1,11 +1,57 @@
-{
+[
+  {
     "id": 0,
     "description": "It is vocabmon 0.",
-    "name": "vocabmon 0",
-    "image":"https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky",
-    "attributes": [
+     "attributes": [
             {
                 "DNA": "0"
             }
-        ]
-}
+        ],
+    "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky",
+    "name": "vocabmon 0"
+  },
+  {
+    "id": 1,
+    "description": "It is vocabmon 1.",
+    "attributes": [
+            {
+                "DNA": "1"
+            }
+        ],
+    "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1",
+    "name": "vocabmon 1"
+  },
+{
+    "id": 2,
+    "description": "It is vocabmon 2.",
+    "attributes": [
+            {
+                "DNA": "2"
+            }
+        ],
+    "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2",
+    "name": "vocabmon 2"
+  },
+    {
+    "id": 3,
+    "description": "It is vocabmon 3.",
+    "attributes": [
+            {
+                "DNA": "3"
+            }
+        ],
+    "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3",
+    "name": "vocabmon 3"
+  },
+    {
+    "id": 4,
+    "description": "It is vocabmon 4.",
+    "attributes": [
+            {
+                "DNA": "4"
+            }
+        ],
+    "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4",
+    "name": "vocabmon 4"
+  },
+]
