@@ -8,7 +8,7 @@
                   "DNA": "0"
               }
           ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky",
+      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky.png",
       "name": "vocabmon 0"
     },
     {
@@ -19,7 +19,7 @@
                   "DNA": "1"
               }
           ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1",
+      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1.png",
       "name": "vocabmon 1"
     },
   {
@@ -30,7 +30,7 @@
                   "DNA": "2"
               }
           ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2",
+      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2.png",
       "name": "vocabmon 2"
     },
       {
@@ -41,7 +41,7 @@
                   "DNA": "3"
               }
           ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3",
+      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3.png",
       "name": "vocabmon 3"
     },
       {
@@ -52,7 +52,7 @@
                   "DNA": "4"
               }
           ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4",
+      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4.png",
       "name": "vocabmon 4"
     }
   ]
