@@ -1,4 +1,5 @@
-[
+{
+    "tokens":[
     {
       "id": 0,
       "description": "It is vocabmon 0.",
@@ -55,4 +56,4 @@
       "name": "vocabmon 4"
     }
   ]
-  
+}
