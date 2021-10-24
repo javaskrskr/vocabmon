@@ -1,59 +1,103 @@
 {
-    "tokens":[
-    {
-      "id": 0,
-      "description": "It is vocabmon 0.",
-       "attributes": [
-              {
-                  "DNA": "0"
-              }
-          ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky.png",
-      "name": "vocabmon 0"
-    },
-    {
-      "id": 1,
-      "description": "It is vocabmon 1.",
-      "attributes": [
-              {
-                  "DNA": "1"
-              }
-          ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1.png",
-      "name": "vocabmon 1"
-    },
-  {
-      "id": 2,
-      "description": "It is vocabmon 2.",
-      "attributes": [
-              {
-                  "DNA": "2"
-              }
-          ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2.png",
-      "name": "vocabmon 2"
-    },
-      {
-      "id": 3,
-      "description": "It is vocabmon 3.",
-      "attributes": [
-              {
-                  "DNA": "3"
-              }
-          ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3.png",
-      "name": "vocabmon 3"
-    },
-      {
-      "id": 4,
-      "description": "It is vocabmon 4.",
-      "attributes": [
-              {
-                  "DNA": "4"
-              }
-          ],
-      "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4.png",
-      "name": "vocabmon 4"
-    }
-  ]
+    "tokens": [
+        {
+            "id": 0,
+            "description": "It is vocabmon 0.",
+            "attributes": [
+                {
+                    "DNA": "0"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky.png",
+            "name": "vocabmon 0"
+        },
+        {
+            "id": 1,
+            "description": "It is vocabmon 1.",
+            "attributes": [
+                {
+                    "DNA": "1"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky1.png",
+            "name": "vocabmon 1"
+        },
+        {
+            "id": 2,
+            "description": "It is vocabmon 2.",
+            "attributes": [
+                {
+                    "DNA": "2"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky2.png",
+            "name": "vocabmon 2"
+        },
+        {
+            "id": 3,
+            "description": "It is vocabmon 3.",
+            "attributes": [
+                {
+                    "DNA": "3"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky3.png",
+            "name": "vocabmon 3"
+        },
+        {
+            "id": 4,
+            "description": "It is vocabmon 4.",
+            "attributes": [
+                {
+                    "DNA": "4"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/tecky4.png",
+            "name": "vocabmon 4"
+        },
+        {
+            "id": 5,
+            "description": "It is vocabmon 5.",
+            "attributes": [
+                {
+                    "DNA": "5"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/test0.gif",
+            "name": "vocabmon 5"
+        },
+        {
+            "id": 6,
+            "description": "It is vocabmon 6.",
+            "attributes": [
+                {
+                    "DNA": "6"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/test1.gif",
+            "name": "vocabmon 6"
+        },
+        {
+            "id": 7,
+            "description": "It is vocabmon 7.",
+            "attributes": [
+                {
+                    "DNA": "7"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/test2.gif",
+            "name": "vocabmon 7"
+        },
+        {
+            "id": 8,
+            "description": "It is vocabmon 8.",
+            "attributes": [
+                {
+                    "DNA": "8"
+                }
+            ],
+            "image": "https://vocabmon.s3.ap-southeast-1.amazonaws.com/test3.gif",
+            "name": "vocabmon 8"
+        }
+    ]
 }
