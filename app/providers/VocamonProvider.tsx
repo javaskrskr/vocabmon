@@ -41,7 +41,7 @@ type GolfinMarketplaceProviderProps = {
 } */
 
 export default function VocabmonProvider({ children, cookie }: GolfinMarketplaceProviderProps) {
-    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? process.env.NEXT_PUBLIC_VERCEL_URL : 'http://localhost:3000'
+    /*  const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? process.env.NEXT_PUBLIC_VERCEL_URL : 'http://localhost:3000' */
 
     /*     const client = new Ably.Realtime({
             authUrl: `${baseUrl}/api/ably`,
