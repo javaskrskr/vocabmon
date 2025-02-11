@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import { init/* , useSignal, backButton, */, initData, initDataUser } from '@telegram-apps/sdk-react'
+import { init/* , useSignal, backButton, */, initDataUser } from '@telegram-apps/sdk-react'
 
 
 interface UserData {
@@ -16,6 +16,7 @@ export default function Home() {
   const [userData, setUserData] = useState<UserData | null>(null);
   init()
   useEffect(() => {
+    console.log(initDataUser())
     const initData = initDataUser()
     if (initData !== null) {
       console.log(initData);
