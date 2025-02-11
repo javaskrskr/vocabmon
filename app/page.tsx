@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import { init, useSignal, backButton, initData } from '@telegram-apps/sdk-react'
+import { init/* , useSignal, backButton, */, initData } from '@telegram-apps/sdk-react'
 
 
 interface UserData {
@@ -16,18 +16,18 @@ export default function Home() {
   init()
 
   const [userData, setUserData] = useState<UserData | null>(null);
-  const isVisible = useSignal(backButton.isVisible);
-
-  useEffect(() => {
-    console.log('The button is', isVisible ? 'visible' : 'invisible');
-  }, [isVisible]);
-
-  useEffect(() => {
-    backButton.show();
-    return () => {
-      backButton.hide();
-    };
-  }, []);
+  /*   const isVisible = useSignal(backButton.isVisible); */
+  /* 
+    useEffect(() => {
+      console.log('The button is', isVisible ? 'visible' : 'invisible');
+    }, [isVisible]);
+  
+    useEffect(() => {
+      backButton.show();
+      return () => {
+        backButton.hide();
+      };
+    }, []); */
 
   useEffect(() => {
     if (initData) {
