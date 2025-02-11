@@ -4,16 +4,24 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import '@rainbow-me/rainbowkit/styles.css'
 import { Button } from "../button";
 import Image from "next/image";
-
+export const isTelegramWebView = () => {
+    if (typeof window === "undefined") return false;
+    return /Telegram/.test(navigator.userAgent) && /WebView/.test(navigator.userAgent);
+};
 export const ConnectWalletButton = () => {
+
     return (
-        <ConnectButton.Custom>{({ account, chain, openAccountModal, openChainModal, openConnectModal, authenticationStatus, mounted }) => {
+        <ConnectButton.Custom>{({ account, chain, openAccountModal, openChainModal, openConnectModal, authenticationStatus, mounted, connectModalOpen }) => {
             const ready = mounted && authenticationStatus !== "loading";
-            const connected =
-                ready &&
-                account &&
-                chain &&
-                (!authenticationStatus || authenticationStatus === "authenticated");
+            const connected = ready && account && chain && (!authenticationStatus || authenticationStatus === "authenticated");
+            const handleMetaMaskConnect = () => {
+                if (isTelegramWebView()) {
+                    const walletConnectUri = `https://metamask.app.link/wc?uri=${encodeURIComponent(process.env.WALLET_CONNECT_PROJECT_ID!)}`
+                    window.location.href = walletConnectUri;
+                } else {
+                    openConnectModal()
+                }
+            }
             return (
                 <div
                     {...(!ready && {
@@ -31,7 +39,7 @@ export const ConnectWalletButton = () => {
                                 <div className="mx-auto w-fit">
                                     <Button
                                         className="rounded-xl font-normal hover:opacity-90"
-                                        onClick={openConnectModal}
+                                        onClick={handleMetaMaskConnect}
                                         type="button">
                                         Connect
                                     </Button>
@@ -95,7 +103,8 @@ export const ConnectWalletButton = () => {
                     })()}
                 </div>
             );
-        }}
+        }
+        }
         </ConnectButton.Custom>
     );
 };
