@@ -11,7 +11,7 @@ export const isTelegramWebView = () => {
 export const ConnectWalletButton = () => {
 
     return (
-        <ConnectButton.Custom>{({ account, chain, openAccountModal, openChainModal, openConnectModal, authenticationStatus, mounted, connectModalOpen }) => {
+        <ConnectButton.Custom>{({ account, chain, openAccountModal, openChainModal, openConnectModal, authenticationStatus, mounted }) => {
             const ready = mounted && authenticationStatus !== "loading";
             const connected = ready && account && chain && (!authenticationStatus || authenticationStatus === "authenticated");
             const handleMetaMaskConnect = () => {
