@@ -32,6 +32,7 @@ export default function Home() {
   useEffect(() => {
     if (initData) {
       console.log(initData);
+      console.log(initData.user());
 
       setUserData(initData.user() as UserData)
     }
