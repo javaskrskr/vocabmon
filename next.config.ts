@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_PROJECT_ID: process.env.NEXT_PUBLIC_PROJECT_ID,
     IRON_SESSION_PASSWORD: process.env.IRON_SESSION_PASSWORD,
     NEXTAUTH_URL: process.env.NEXTAUTH_URL,
-    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
+    SECRET: process.env.NEXTAUTH_SECRET,
   },
 };
 

@@ -12,6 +12,7 @@
     "@radix-ui/react-slot": "^1.1.2",
     "@rainbow-me/rainbowkit": "^2.2.3",
     "@reown/walletkit": "^1.2.0",
+    "@telegram-apps/sdk-react": "^3.0.8",
     "@walletconnect/core": "^2.18.0",
     "@walletconnect/utils": "^2.18.0",
     "autoprefixer": "^10.4.20",

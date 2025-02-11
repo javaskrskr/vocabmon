@@ -3,7 +3,6 @@ import type { NextAuthOptions } from "next-auth";
 import { SiweMessage } from "siwe";
 import { readCookieFromStorageServerAction } from "./utils/action/serverActions";
 
-
 interface User {
     id: string;
     accessToken: string;
@@ -67,7 +66,7 @@ export const authConfig: NextAuthOptions = {
             },
         }),
     ],
-    secret: process.env.SECRET,
+    secret: process.env.NEXTAUTH_SECRET,
     callbacks: {
         async jwt({ token, user }) {
             if (user) {
@@ -95,21 +94,28 @@ export const authConfig: NextAuthOptions = {
     },
     events: {
         async signIn(message) {
+            console.log(message);
+
             /* on successful sign in */
         },
         async signOut(message) {
+            console.log(message);
             /* on signout */
         },
         async createUser(message) {
+            console.log(message);
             /* user created */
         },
         async updateUser(message) {
+            console.log(message);
             /* user updated - e.g. their email was verified */
         },
         async linkAccount(message) {
+            console.log(message);
             /* account (e.g. Twitter) linked to a user */
         },
         async session(message) {
+            console.log(message);
             /* session is active */
         },
     },
