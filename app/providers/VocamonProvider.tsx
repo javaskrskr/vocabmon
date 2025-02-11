@@ -19,7 +19,6 @@ import { ReactNode } from "react";
 
 import { ThemeProvider } from "./ThemeProvider";
 import { authenticationAdapter } from "@/utils/authenticationADapter";
-import { TelegramProvider } from "./TelegramProvider";
 
 
 const queryClient = new QueryClient();
@@ -69,9 +68,9 @@ export default function VocabmonProvider({ children, cookie }: GolfinMarketplace
 
                         {/*     <StyleProvider> */}
                         <ThemeProvider attribute="class">
-                            <TelegramProvider>
-                                {children}
-                            </TelegramProvider>
+                            {/* <TelegramProvider> */}
+                            {children}
+                            {/* </TelegramProvider> */}
                         </ThemeProvider>
 
                         {/*  </StyleProvider> */}
