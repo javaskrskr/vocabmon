@@ -9,12 +9,12 @@ const connectors = connectorsForWallets(
     [
         {
             groupName: 'Vocabmon Approved Wallets',
-            wallets: [metaMaskWallet, braveWallet, phantomWallet],
+            wallets: [metaMaskWallet, braveWallet, phantomWallet,],
         },
     ],
     {
         appName: "Vocabmon",
-        appUrl: "",
+        appUrl: process.env.NEXT_PUBLIC_VERCEL_URL,
         appIcon: "",
         projectId: projectId,
 

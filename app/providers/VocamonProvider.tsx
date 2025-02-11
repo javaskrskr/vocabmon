@@ -60,27 +60,12 @@ export default function VocabmonProvider({ children, cookie }: GolfinMarketplace
         <WagmiProvider config={config} initialState={initialState}>
             <QueryClientProvider client={queryClient}>
                 <RainbowKitAuthenticationProvider adapter={authenticationAdapter} status={status}>
-                    <RainbowKitProvider coolMode>
-                        {/*  <AblyProvider client={client}> */}
-                        {/*  <ChannelProvider channelName='golfin-marketplace-dev'> */}
-                        {/*  <MessageProvider>
-                                    <UserProvider> */}
-
-                        {/*     <StyleProvider> */}
+                    <RainbowKitProvider>
                         <ThemeProvider attribute="class">
-                            {/* <TelegramProvider> */}
                             {children}
-                            {/* </TelegramProvider> */}
                         </ThemeProvider>
-
-                        {/*  </StyleProvider> */}
-                        {/*           </UserProvider>
-                                </MessageProvider> */}
-                        {/* </ChannelProvider> */}
-                        {/*  </AblyProvider> */}
                     </RainbowKitProvider>
                 </RainbowKitAuthenticationProvider>
-
             </QueryClientProvider>
         </WagmiProvider >
     );
